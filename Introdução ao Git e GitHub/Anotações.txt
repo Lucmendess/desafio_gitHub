@@ -1,0 +1,33 @@
+Link p/ download do git :https://github.com/Lucmendess/desafio_gitHub
+
+  Iniciando um repositório:
+$ git init
+
+  Apagando um repositório:
+$ rm -rf .git
+
+  Desfazendo o último commit:
+$ git revert HEAD
+
+
+  Alterando/renomeando o commit:
+$ git commit --amend
+
+  Listando o branch:
+$ git branch
+
+
+  Indo para outro branch:
+$ git checkout minha-branch
+
+
+  Excluindo branches:
+git branch -d nome-da-branch
+git branch -D nome-da-branch
+
+  Renomeando branches:
+git branch -m novo-nome-da-branch
+
+
+  Visualizando históricos de commits:
+$ git log
